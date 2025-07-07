@@ -1,0 +1,616 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: sans-serif;
+}
+
+body p {
+    font-size: 18px;
+}
+
+/* header section */
+header {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .logo {
+    position: relative;
+    height: 10px;
+    line-height: 82px;
+    font-size: 24px;
+
+}
+
+form input {
+    width: 140px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 30px;
+    background-color: #c3bfbc;
+    border: none;
+    outline: none;
+}
+
+header nav {
+    float: right;
+
+}
+
+header nav ul {
+    padding-top: 25px;
+    margin: 0;
+    display: flex;
+}
+
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    padding-right: 50px;
+    text-decoration: none;
+    display: block;
+    color: #82807e;
+    font-weight: bolder;
+}
+
+header nav ul li a:hover {
+    color: #fff;
+    background: #2196f3;
+    border-radius: 30px;
+
+}
+
+.menu-toggle {
+    color: #333;
+    float: right;
+    line-height: 70px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+/* header section end */
+/* banner section */
+
+.heading {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 100px;
+    top: 350px;
+}
+
+.heading h4 {
+    font-style: italic;
+    font-size: 23PX;
+    color: #80766e;
+}
+
+.heading h1 {
+    font-size: 80px;
+    color: #deb37e;
+}
+
+.heading p {
+    width: 350px;
+    padding-top: 20px;
+    color: #54524f;
+
+}
+
+.btn1 button {
+    margin-top: 50PX;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    color: #776c64;
+    font-weight: bolder;
+    background: #fefdfd;
+    font-size: 17PX;
+}
+
+button:hover {
+    color: #fff;
+    background: #2196f3;
+    border-radius: 30px;
+}
+
+/* banner section */
+/* section lets go */
+.heading2 {
+    text-align: center;
+}
+
+.heading2 h2 {
+    font-size: 50px;
+    color: #e2a355;
+}
+
+.heading2 p {
+    width: 500px;
+    padding-left: 420px;
+    padding-top: 30px;
+    color: #7f7770;
+}
+
+.lets {
+    display: flex;
+    margin-left: 130px;
+    margin-top: 70px;
+    gap: 30px;
+
+}
+
+.info {
+    background-color: #7f7770;
+    width: 339px;
+    height: 220px;
+
+
+}
+
+.info h3 {
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+
+}
+
+.info p {
+    padding-top: 50px;
+    color: white;
+    padding-left: 30px;
+}
+
+.btn2 button {
+    margin-top: 50PX;
+    padding: 17px 60px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    background: #7f7770;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.btn2 {
+    text-align: center;
+}
+
+/* section lets go */
+/* section discount  */
+
+.dis1 {
+    display: flex;
+    margin-top: 150px;
+}
+
+.dis2 {
+    display: flex;
+
+}
+
+.heading3 {
+    background-color: #7f7770;
+    width: 680px;
+    height: 405px;
+    padding-top: 200px;
+    padding-left: 100px;
+
+}
+
+
+.heading3 p {
+    width: 350px;
+    color: white;
+    padding-top: 40px;
+}
+
+.heading3 h2 {
+    font-size: 50px;
+    color: white;
+
+}
+
+.btn3 button {
+    margin-top: 50PX;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    background: #e2a355;
+    font-size: 15px;
+
+}
+
+.heading4 {
+
+    background-color: #deb37e;
+    width: 680px;
+    padding-top: 200px;
+    padding-left: 100px;
+
+}
+
+
+.heading4 p {
+    width: 350px;
+    color: white;
+    padding-top: 40px;
+}
+
+.heading4 h2 {
+    font-size: 50px;
+    color: white;
+
+}
+
+
+.heading5 {
+    text-align: center;
+    padding-top: 150px;
+    margin-top: 200px;
+    color: white;
+    background-color: #99928d;
+    height: 250px;
+}
+
+.heading5 p {
+    width: 600px;
+    padding-left: 370px;
+    padding-top: 30px;
+}
+
+
+.heading5 h2 {
+    font-size: 35px;
+}
+
+/* section discount  */
+/* section banner2 */
+.banner2 {
+    margin-top: 200px;
+}
+
+.heading6 {
+    display: flex;
+    margin: 150px 90px;
+    gap: 60px;
+}
+
+.heading6 h2 {
+    color: #e2a355;
+
+}
+
+.heading6 p {
+    padding-top: 30px;
+    color: #7f7770;
+}
+
+
+.heading7 p {
+
+    width: 600px;
+    padding-left: 370px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.heading7 h4 {
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+.heading7 {
+    color: #3f3f3f;
+}
+
+/* section banner2 */
+/* section contact */
+.heading8 {
+    text-align: center;
+    padding-top: 150px;
+    margin-top: 200px;
+    color: white;
+    background-color: #deb37e;
+    height: 300px;
+    width: 100%;
+}
+
+
+.heading8 p {
+    color: #54524f;
+    width: 550px;
+    padding-left: 30%;
+    padding-top: 40px;
+}
+
+.heading8 h2 {
+    font-size: 70px;
+}
+
+
+.form input {
+    width: 450px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+
+}
+
+.btn4 {
+    margin-top: 50PX;
+    padding: 10px 60px;
+    border-radius: 30px;
+    color: white;
+    background: #7f7770;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+.footer {
+    display: flex;
+    margin-top: 150px;
+    padding: 0 230px;
+    gap: 100px;
+    color: #fff;
+    background-color: #7f7770;
+    height: 590px;
+}
+
+.footer p {
+    padding: 30px 0;
+}
+
+.soical {
+    margin-top: 150px;
+}
+
+.other {
+    margin-top: 150px;
+}
+
+.services {
+    margin-top: 150px;
+}
+
+.about {
+    margin-top: 150px;
+}
+
+.fa-brands {
+    font-size: 40px;
+    padding: 10px 10px;
+}
+
+
+/* section footer end */
+
+/* section media quarry */
+
+
+
+
+@media (max-width:992px) {
+
+    header {
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+        position: absolute;
+        height: calc(100vh - 50px);
+        width: 100%;
+        right: 0;
+        top: 110px;
+        transition: 0.5s;
+        background-color: #333;
+        height: 280px;
+        z-index: 10;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        border-bottom: 1px solid rgba(243, 238, 238, 0.2);
+    }
+
+    form input {
+        display: none;
+    }
+
+    /* section header */
+    /* section banner */
+    .heading {
+        position: absolute;
+        bottom: 0px;
+        right: 0;
+        left: 50px;
+        top: 240px;
+    }
+
+    .heading h4 {
+        font-size: 18px;
+    }
+
+    .heading h1 {
+        font-size: 50px;
+    }
+
+    .heading p {
+        padding-top: 10px;
+
+    }
+
+    .btn1 button {
+        margin-top: 20PX;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 20px;
+        color: #776c64;
+        font-weight: bolder;
+        background: #fefdfd;
+        font-size: 13PX;
+    }
+
+    /* section banner */
+    /* section ltes go */
+    .heading2 p {
+
+        padding-left: 150px;
+        padding-top: 20px;
+
+    }
+
+    .lets {
+        display: flex;
+        margin-left: 10px;
+        margin-top: 70px;
+        gap: 10px;
+
+    }
+
+    .info {
+        background-color: #7f7770;
+        width: 255px;
+        height: 210px;
+
+
+    }
+
+    .card1 img {
+        width: 255px;
+        height: 201;
+    }
+
+    .card2 img {
+        width: 255px;
+        height: 201;
+    }
+
+    .card3 img {
+        width: 255px;
+        height: 201;
+    }
+
+    /* section lets go  */
+    /* section discount */
+    .heading3 {
+        background-color: #7f7770;
+
+        height: 350px;
+        padding-top: 100px;
+        padding-left: 30px;
+
+    }
+
+
+    .heading4 {
+
+        background-color: #deb37e;
+        width: 400px;
+        padding-top: 100px;
+        padding-left: 30px;
+
+    }
+
+    .img1 img {
+        width: 400px;
+        height: 450px;
+    }
+
+
+    .img2 img {
+        width: 400px;
+        height: 450px;
+    }
+
+.discount h2{
+  font-size: 40px;
+}
+
+
+.heading3 p{
+    padding-top: 5px;
+}
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:992px) {
+    .banner {
+        margin-top: 50px;
+    }
+
+    header {
+        padding: 0 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    header nav {
+        display: none;
+        position: absolute;
+        height: calc(100vh - 50px);
+        width: 100%;
+        right: 0;
+        top: 110px;
+        transition: 0.5s;
+        background-color: #333;
+        height: 280px;
+        z-index: 10;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li a {
+        border-bottom: 1px solid rgba(243, 238, 238, 0.2);
+    }
+
+    form input {
+        display: none;
+    }
+}
